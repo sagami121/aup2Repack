@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[codz]
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# PyInstaller
+*.manifest
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Local settings
+.env
+
+# EXE (ReleaseではGitHubにアップするのでgit管理しない)
+*.exe
