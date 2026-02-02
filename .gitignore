@@ -1,19 +1,42 @@
 # Python cache
 __pycache__/
 *.py[codz]
+*$py.class
 
-# Virtual env
+# C extensions
+*.so
+
+# Virtual env / environments
 .venv/
 venv/
 env/
+ENV/
+env.bak/
+venv.bak/
 
-# Build artifacts
+# Distribution / packaging
+.Python
 build/
 dist/
-*.spec
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
 # PyInstaller
 *.manifest
+*.spec
 
 # IDE
 .vscode/
@@ -28,6 +51,42 @@ Thumbs.db
 
 # Local settings
 .env
+.envrc
 
-# EXE (ReleaseではGitHubにアップするのでgit管理しない)
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage*
+.cache
+pytest_cache/
+hypothesis/
+
+# Jupyter
+.ipynb_checkpoints
+
+# mypy / pytype
+.mypy_cache/
+.pytype/
+.pyre/
+
+# PDM / Pixi
+.pdm-python
+.pdm-build/
+.pixi
+__pypackages__/
+
+# mkdocs
+/site
+
+# Cursor
+.cursorignore
+.cursorindexingignore
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# EXE（ReleaseではGitHubに上げない）
 *.exe
